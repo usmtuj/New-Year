@@ -376,7 +376,7 @@ footer .soc {
     }
 
     nav .container {
-        flex-direction: column;
+        flex-direction: column !important;
     }
 
     nav {
@@ -391,8 +391,9 @@ footer .soc {
     }
 
     .container {
+        display: flex;
         text-align: center;
-        flex-direction: column-reverse;
+        flex-direction: column-reverse !important;
         align-items: center;
         text-align: center !important;
         padding: 50px 0;
@@ -410,17 +411,27 @@ footer .soc {
     section img {
         margin-bottom: 50px;
         margin-inline: auto !important;
+        width: 90% !important;
+    }
+
+    .news img {
+        width: 100% !important;
     }
 
     .films img {
+        width: 100% !important;
         margin-bottom: 0px;
     }
 
     .video iframe {
         margin-inline: auto !important;
         margin-bottom: 50px !important;
-        max-width: 400px !important;
+        width: 90% !important;
         height: 300px;
+    }
+
+    .text-container {
+        margin-inline: auto !important;
     }
 
 }
