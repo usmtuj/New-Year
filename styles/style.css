@@ -432,6 +432,7 @@ footer .soc {
 
     .text-container {
         margin-inline: auto !important;
+        width: 90% !important;
     }
 
 }

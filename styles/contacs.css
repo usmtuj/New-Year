@@ -49,7 +49,12 @@ informations  */
 
 .ours {
     max-width: 300px;
+    margin-inline: auto !important;
     margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     padding: 20px;
 }
 
@@ -64,4 +69,18 @@ informations  */
 
 .info {
     margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    form {
+        width: 100%;
+        padding: 10px;
+    }
+    .map {
+        width: 90% !important;
+    }
+    .map iframe {
+        width: 100% !important;
+        height: 400px;
+    }
 }
