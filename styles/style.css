@@ -202,7 +202,6 @@ main {
 .wrapper {
     display: flex;
     align-items: center;
-    justify-content: start;
     margin-top: 30px;
 }
 
@@ -455,6 +454,10 @@ footer .soc {
     .text-container {
         margin-inline: auto !important;
         width: 90% !important;
+    }
+
+    .wrapper img {
+        transform: translateX(200%);
     }
 
 }
