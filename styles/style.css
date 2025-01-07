@@ -206,11 +206,6 @@ main {
     margin-top: 30px;
 }
 
-.wrapper p {
-    position: absolute;
-    margin-left: 330px;
-}
-
 .wrapper audio {
     border: 3px solid rgb(235, 91, 91);
     border-radius: 80px;
