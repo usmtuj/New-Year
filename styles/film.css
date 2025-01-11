@@ -124,3 +124,21 @@ header {
     background-color: #3b9a51; 
     transform: translateY(-50%) scale(1.1);
 }
+
+@media (max-width: 668px) {
+    .swiper-slide {
+        font-size: 0.7rem;
+    }
+
+    .swiper-slide p {
+        font-size: 1rem;
+    }
+
+    img {
+        height: 250px !important;
+    }
+
+    .swiper-slide h3 {
+        font-size: 1.5rem;
+    }
+}
